@@ -1,4 +1,4 @@
-// Create a data model based on this input specification. Feel free to use an array of “classic old” JavaScript object, or to wrap your inputs in ECMA6 classes that are stored “somehow”. Create at least 2 test Media items per type CDs, Books, DVDs & Comics => total  at least 8 test Media objects.
+// TASK: Create a data model based on this input specification. Feel free to use an array of “classic old” JavaScript object, or to wrap your inputs in ECMA6 classes that are stored “somehow”. Create at least 2 test Media items per type CDs, Books, DVDs & Comics => total  at least 8 test Media objects.
 
 data = {
     "category1": [{
@@ -108,7 +108,7 @@ data = {
 
 }
 
-// Use that data model to populate your objects on the screen (hint: to get the bonus points more easily, organize that part of your code as a JavaScript function. If you feel stuck, create an HTML that resembles the structure that you want to present, then move to the Bootstrap part to get enough points to pass this CR).
+// TASK: Use that data model to populate your objects on the screen (hint: to get the bonus points more easily, organize that part of your code as a JavaScript function. If you feel stuck, create an HTML that resembles the structure that you want to present, then move to the Bootstrap part to get enough points to pass this CR).
 
 
 window.onload = function() {
@@ -134,9 +134,9 @@ window.onload = function() {
 }
 
 
-// ADD Form: Add a form to your HTML page and create an ADD button that adds new Media to the list. You need to create a code that a) adds an item to the list of your objects (book, CD, etc) and b)  displays the new item on the screen.
+// TASK: add Form: Add a form to your HTML page and create an ADD button that adds new Media to the list. You need to create a code that a) adds an item to the list of your objects (book, CD, etc) and b)  displays the new item on the screen.
 
-$('.button').on('click', function() {
+$('.buttonAdd').on('click', function() {
     var a = $('#item1').val();
     var b = $('#item2').val();
     var c = $('#item3').val();

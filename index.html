@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Create a responsive Bootstrap layout based on the grid system. Deploy the standard Bootstrap classes for styling a form. Feel free to deploy other Bootstrap Components to get well organized and structured layout which will facilitate the visibility of each property of your Media. Your solution needs to cover responsiveness (at least laptops and mobile devices)  -->
+    <!-- TASK: Create a responsive Bootstrap layout based on the grid system. Deploy the standard Bootstrap classes for styling a form. Feel free to deploy other Bootstrap Components to get well organized and structured layout which will facilitate the visibility of each property of your Media. Your solution needs to cover responsiveness (at least laptops and mobile devices)  -->
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,7 +40,7 @@
             <li role="presentation"><a href="photography.html">Photography</a></li>
         </ul>
 
-        <!-- create a visually appealing rendering of all the Media objects saved in your data structure. Use following images as a hint (not as a final design solution!!!) on how to organize your page, then improve -->
+        <!-- TASK: create a visually appealing rendering of all the Media objects saved in your data structure. Use following images as a hint (not as a final design solution!!!) on how to organize your page, then improve -->
 
         <div class="row">
             <div class="col-xs-7 col-md-4 col-lg-3">
@@ -63,28 +63,29 @@
                 <div id="category4">
                 </div>
             </div>
-
         </div>
+
+        <!-- TASK: add Form: Add a form to your HTML page and create an ADD button that adds new Media to the list. You need to create a code that a) adds an item to the list of your objects (book, CD, etc) and b)  displays the new item on the screen. -->
 
         <div class="well">
             <h1>Something is missing?</h1>
             <h2>Add new items</h2>
             <div class="inputFields"><br>
-                <input type="text" id="item1" name="listAlbum" placeholder="Album / Book name / Movie name" /><br>
-                <input type="text" id="item2" name="listInterpret" placeholder="Interpret or Author" /><br>
-                <textarea name="listDescription" id="item3" cols="30" rows="5" placeholder="Enter description"></textarea><br>
+                <input type="text" id="item1" name="listAlbum" placeholder="Album / Book name / Movie name" /><br><br>
+                <input type="text" id="item2" name="listInterpret" placeholder="Interpret or Author" /><br><br>
+                <textarea name="listDescription" id="item3" cols="30" rows="5" placeholder="Enter description"></textarea><br><br>
                 <div class="form-group">
                     <label for="fileInput">Choose picture</label>
                     <input type="file" class="form-control-file btn btn-info" id="fileInput">
                 </div>
-                <input class="button btn btn-default" type="submit" value="add">
+                <input class="buttonAdd btn btn-default" type="submit" value="add"><br><br>
                 <ul class="outputX">
                 </ul>
             </div>
-
         </div>
 
 
+        <!-- Number navigation at the bottom of each page -->
 
         <nav aria-label="Page navigation">
             <ul class="pagination">
