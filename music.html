@@ -11,42 +11,99 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <title>Music - Media Center</title>
+
+    <title>Multimedia Library</title>
 </head>
 
 <body>
-
     <div class="container">
+        <a id="textDeco" href="index.html">
+            <div id="bgColor" class="jumbotron">
+                <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> M&sup3;
+                </h1>
+                <p>music, movies &amp; more</p>
+            </div>
+        </a>
 
-        <div class="jumbotron">
-            <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> M&sup3;
-            </h1>
-            <p>music, movies &amp; more</p>
-        </div>
-
-
-        <ul class="nav nav-tabs">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li class="active" role="presentation"><a href="music.html">Music</a></li>
+        <ul id="bgColor" class="nav nav-tabs navbar-inverse">
+            <li class="active" role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="music.html">Music</a></li>
             <li role="presentation"><a href="movies.html">Movies</a></li>
             <li role="presentation"><a href="other.html">Other</a></li>
         </ul>
 
 
+        <h1>Music</h1>
+        <div class="row">
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/dalida.jpg" alt="Dalida - Les 50 plus belles chansons">
+                    <p>Dalida - Les 50 plus belles chansons</p>
+
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/elvis.jpg" alt="Elvis Presley - Love Me Tender">
+                    <p>Elvis Presley - Love Me Tender</p>
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/sinatra.jpg" alt="">
+                    <p>Frank Sinatra - My Way</p>
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/ella.jpg" alt="">
+                    <p>Ella Fitzgerald - Summertime</p>
+                </a>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="index.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="index.html">1</a></li>
+                <li><a href="music.html">2</a></li>
+                <li><a href="movies.html">3</a></li>
+                <li><a href="other.html">4</a></li>
+                <li>
+                    <a href="music.html" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
 
+        <footer>
+            <div style="background: #001E2D !important" class="panel-footer" id="footer-center">
+                <p style="color: rgb(199, 199, 199)">&copy; S. Westenberger</p>
 
-
-
-
-
-
+                <div style="word-spacing: 1.5em;">
+                    <a href="https://github.com/schahnaz" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/westenberger" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/madameeasybella" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/madame_easybella/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
 
 
     </div>
 
+    <script src="script/main.js"></script>
 </body>
+
 <link rel="stylesheet" href="css/style.css">
 
 </html>

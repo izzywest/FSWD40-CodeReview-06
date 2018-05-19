@@ -11,42 +11,98 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <title>Other - Media Center</title>
+
+    <title>Multimedia Library</title>
 </head>
 
 <body>
-
     <div class="container">
+        <a id="textDeco" href="index.html">
+            <div id="bgColor" class="jumbotron">
+                <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> M&sup3;
+                </h1>
+                <p>music, movies &amp; more</p>
+            </div>
+        </a>
 
-        <div class="jumbotron">
-            <h1><span class="glyphicon glyphicon-console" aria-hidden="true"></span> M&sup3;
-            </h1>
-            <p>music, movies &amp; more</p>
-        </div>
-
-
-        <ul class="nav nav-tabs">
-            <li role="presentation"><a href="index.html">Home</a></li>
+        <ul id="bgColor" class="nav nav-tabs navbar-inverse">
+            <li class="active" role="presentation"><a href="index.html">Home</a></li>
             <li role="presentation"><a href="music.html">Music</a></li>
             <li role="presentation"><a href="movies.html">Movies</a></li>
-            <li class="active" role="presentation"><a href="other.html">Other</a></li>
+            <li role="presentation"><a href="other.html">Other</a></li>
         </ul>
 
 
+        <h1>Instagram</h1>
+        <div class="row">
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/olioptic.jpg" alt="">
+                    <a href="https://www.instagram.com/olioptic/" target="_blank">olioptic</a>
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/fabolus_vienna.jpg" alt="">
+                    <a href="https://www.instagram.com/fabolus_vienna/" target="_blank">fabolus_vienna</a>
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/misshattan.jpg" alt="">
+                    <a href="https://www.instagram.com/misshattan/" target="_blank">misshattan</a>
+                </a>
+            </div>
+            <div class="col-xs-7 col-md-4 col-lg-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/perfex_vie.jpg" alt="">
+                    <a href="https://www.instagram.com/perfex_vie/" target="_blank">perfex_vie</a>
+                </a>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="index.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="index.html">1</a></li>
+                <li><a href="music.html">2</a></li>
+                <li><a href="movies.html">3</a></li>
+                <li><a href="other.html">4</a></li>
+                <li>
+                    <a href="music.html" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
 
+        <footer>
+            <div style="background: #001E2D !important" class="panel-footer" id="footer-center">
+                <p style="color: rgb(199, 199, 199)">&copy; S. Westenberger</p>
 
-
-
-
-
-
+                <div style="word-spacing: 1.5em;">
+                    <a href="https://github.com/schahnaz" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/westenberger" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/madameeasybella" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/madame_easybella/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
 
 
     </div>
 
+    <script src="script/main.js"></script>
 </body>
+
 <link rel="stylesheet" href="css/style.css">
 
 </html>

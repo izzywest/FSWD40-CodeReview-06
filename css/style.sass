@@ -1,27 +1,49 @@
 // style
 
+$blueDark: rgba(110, 161, 185, 0.188)
+$blueLight: #00a7ff
+
 body
     background-color: black
-    color: rgb(0%, 55.1%, 84.3%)
 
+h1
+    color: $blueLight
+
+img
+    width: 100%
+    height: auto
+
+#textDeco
+    text-decoration: none
+
+#bgColor
+    background-color: $blueDark
+
+.row
+    text-align: center
+
+.panel-footer a:hover
+    color: $blueLight
+    
 #footer-center
     text-align: center
 
 #footer-right
     text-align: right
 
-.row
-    text-align: center
+.nav-tabs>li.active>a
+    color: white
+    cursor: default
+    background-color: dodgerblue
+    border: none
 
-.row a:hover
-    color: rgb(0%, 55.1%, 84.3%)
-    text-decoration: none
+.nav-tabs>li.active>a:hover
+    color: white
+    background-color: darkgray
+    border: none
 
-.panel-footer a:hover
-    color: #00a7ff
+.nav-tabs>li>a:hover
+    color: white
+    background-color: gray
+    border: none
 
-#navStyle
-    color: red
-
-.pagination a
-    background-color: #00a3ef30 !important

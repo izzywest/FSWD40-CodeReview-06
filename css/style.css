@@ -1,6 +1,30 @@
 body {
   background-color: black;
-  color: #008dd7;
+}
+
+h1 {
+  color: #00a7ff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#textDeco {
+  text-decoration: none;
+}
+
+#bgColor {
+  background-color: rgba(110, 161, 185, 0.188);
+}
+
+.row {
+  text-align: center;
+}
+
+.panel-footer a:hover {
+  color: #00a7ff;
 }
 
 #footer-center {
@@ -11,24 +35,22 @@ body {
   text-align: right;
 }
 
-.row {
-  text-align: center;
+.nav-tabs > li.active > a {
+  color: white;
+  cursor: default;
+  background-color: dodgerblue;
+  border: none;
 }
 
-.row a:hover {
-  color: #008dd7;
-  text-decoration: none;
+.nav-tabs > li.active > a:hover {
+  color: white;
+  background-color: darkgray;
+  border: none;
 }
 
-.panel-footer a:hover {
-  color: #00a7ff;
-}
-
-#navStyle {
-  color: red;
-}
-
-.pagination a {
-  background: rgba(0, 163, 239, 0.188);
+.nav-tabs > li > a:hover {
+  color: white;
+  background-color: gray;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
