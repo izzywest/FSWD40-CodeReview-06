@@ -141,10 +141,10 @@ $('.button').on('click', function() {
     var b = $('#item2').val();
     var c = $('#item3').val();
 
-    $("ul").append('<li>' + '<b>Album/Book/Movie/Photographer:</b><br> ' + a + '</li><br>');
+    $(".outputX").append('<li>' + '<b>Album/Book/Movie/Photographer:</b><br> ' + a + '</li><br>');
     document.getElementById('item1').value = '';
-    $("ul").append('<li>' + '<b>Interpret/Author:</b><br> ' + b + '</li><br>');
+    $(".outputX").append('<li>' + '<b>Interpret/Author:</b><br> ' + b + '</li><br>');
     document.getElementById('item2').value = '';
-    $("ul").append('<li>' + '<b>Description:</b><br> ' + c + '</li><hr>');
+    $(".outputX").append('<li>' + '<b>Description:</b><br> ' + c + '</li><hr>');
     document.getElementById('item3').value = '';
 });
