@@ -48,7 +48,61 @@ data = {
         "AlbumName": "Forrest Gump",
         "coverImg": "img/movie4.jpg",
         "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9734;",
-    }, ]
+    }],
+
+    "category3": [{
+        "Description": "lorem ipsum",
+        "Interpret": "Stephen Hawking",
+        "AlbumName": "A Brief History of Time",
+        "coverImg": "img/book1.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9733;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "Anne Frank",
+        "AlbumName": "The Diary of a Young Girl",
+        "coverImg": "img/book2.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9734;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "Harper Lee",
+        "AlbumName": "To Kill a Mockingbird",
+        "coverImg": "img/book3.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9734; &#9734;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "Sindiwe Magona",
+        "AlbumName": "Mother to Mother",
+        "coverImg": "img/book4.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9734;",
+    }],
+
+
+    "category4": [{
+        "Description": "lorem ipsum",
+        "Interpret": "<a href='https://www.instagram.com/olioptic/' target='_blank'>olioptic</a>",
+        "AlbumName": "Photo hunter and artist with passion",
+        "coverImg": "img/olioptic.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9733;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "<a href='https://www.instagram.com/fabolus_vienna/' target='_blank'>fabolus_vienna</a>",
+        "AlbumName": "Vienna my freedom is over your heads - only my photos - lowlight, urbex, architecture & nature.",
+        "coverImg": "img/fabolus_vienna.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9734;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "<a href='https://www.instagram.com/misshattan/' target='_blank'>misshattan</a>",
+        "AlbumName": "Living the dream, one picture at a time. ",
+        "coverImg": "img/misshattan.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9734; &#9734;",
+    }, {
+        "Description": "lorem ipsum",
+        "Interpret": "<a href='https://www.instagram.com/perfex_vie/' target='_blank'>perfex_vie</a>",
+        "AlbumName": "Urban street photography - based in Vienna",
+        "coverImg": "img/perfex_vie.jpg",
+        "ratingStar": "&#9733; &#9733; &#9733; &#9733; &#9734;",
+    }],
+
 
 }
 
@@ -74,3 +128,24 @@ window.onload = function() {
         }
     }
 }
+
+
+$(document).ready(function() {
+
+
+    $('.button').on('click', function() {
+        var a = $('#item1').val();
+        var b = $('#item2').val();
+        var c = $('#item3').val();
+
+        $("ul").append('<li>' + 'Album/Book/Movie/Photographer: ' + a + '</li>');
+        document.getElementById('item1').value = '';
+        $("ul").append('<li>' + 'Interpret/Author: ' + b + '</li>');
+        document.getElementById('item2').value = '';
+        $("ul").append('<li>' + 'Description: ' + c + '</li>');
+        document.getElementById('item3').value = '';
+
+
+    });
+
+});
